@@ -25,9 +25,16 @@ module.exports = {
       },
       terms: {
         label: 'Estoy de acuerdo con los términos y condiciones'
+      },
+      success: {
+        title: 'Confirma tu correo electrónico.',
+        help: 'Escribe a info@control.fitness para solicitar ayuda en caso que sea necesario.',
+        messageOne: 'Hemos enviado un enlace de confirmación al correo electrónico que proporcionaste.',
+        messageTwo: 'Puede tardar algunos segundos antes de que recibas el mensaje de confirmación en tu bandeja de entrada.'
       }
     },
   },
+  copyright: '&oacute; 2018 Control Fitness',
   form: {
     buttons: {
       back: 'Volver',
