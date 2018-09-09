@@ -11,7 +11,7 @@ const locales = {
 }
 
 // content
-const content = `var window.locales = ${JSON.stringify(locales)};`;
+const content = `var locales = ${JSON.stringify(locales)};`;
 
 // create file
 fs.writeFile('./dist/all.js', content, function(err) {
