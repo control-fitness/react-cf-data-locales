@@ -30,6 +30,12 @@ module.exports = {
         messageTwo: 'Puede tardar algunos segundos antes de que recibas el mensaje de confirmación en tu bandeja de entrada.'
       }
     },
+    user: {
+      activate: {
+        title: 'Activando tu cuenta.',
+        message: 'Estamos activando tu cuenta. Espere un momento por favor.'
+      }
+    }
   },
   copyright: '© 2018 Control Fitness',
   form: {

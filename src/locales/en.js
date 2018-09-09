@@ -30,6 +30,12 @@ module.exports = {
         messageTwo: 'It may take a few seconds before you receive the confirmation message in your inbox.'
       }
     },
+    user: {
+      activate: {
+        title: 'Activating your account.',
+        message: 'We are activating your account. Wait a moment please.'
+      }
+    }
   },
   copyright: '© 2018 Control Fitness',
   form: {
