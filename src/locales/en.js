@@ -34,7 +34,7 @@ module.exports = {
       }
     },
   },
-  copyright: '&oacute; 2018 Control Fitness',
+  copyright: '© 2018 Control Fitness',
   form: {
     buttons: {
       back: 'Back',
