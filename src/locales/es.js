@@ -46,7 +46,7 @@ module.exports = {
     buttons: {
       back: 'Volver',
       cancel: 'Cancelar',
-      continue: 'Continue',
+      continue: 'Continuar',
       createAnAccount: 'Crear una cuenta',
       enter: 'Entrar',
       goToStart: 'Ir al inicio',
