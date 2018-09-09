@@ -34,6 +34,10 @@ module.exports = {
       activate: {
         title: 'Activando tu cuenta.',
         message: 'Estamos activando tu cuenta. Espere un momento por favor.'
+      },
+      activated: {
+        title: 'Cuenta activada.',
+        message: 'Tu cuenta ha sido activada satisfactoriamente.'
       }
     }
   },
@@ -42,6 +46,7 @@ module.exports = {
     buttons: {
       back: 'Volver',
       cancel: 'Cancelar',
+      continue: 'Continue',
       createAnAccount: 'Crear una cuenta',
       enter: 'Entrar',
       goToStart: 'Ir al inicio',

@@ -34,6 +34,10 @@ module.exports = {
       activate: {
         title: 'Activating your account.',
         message: 'We are activating your account. Wait a moment please.'
+      },
+      activated: {
+        title: 'Account activated.',
+        message: 'Your account has been activated successfully.'
       }
     }
   },
@@ -42,6 +46,7 @@ module.exports = {
     buttons: {
       back: 'Back',
       cancel: 'Cancel',
+      continue: 'Continue',
       createAnAccount: 'Create an account',
       enter: 'Enter',
       goToStart: 'Go to start',
