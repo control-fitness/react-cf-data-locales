@@ -3,14 +3,11 @@ module.exports = {
     create: {
       header: 'Create an account',
       company: {
-        header: 'Fitness center data',
+        header: 'Data of your company',
         form: {
-          name: 'Name',
-          tenant: 'Domain',
+          name: 'Company',
           country: 'Country',
           currency: 'Currency',
-          tax: 'Tax',
-          taxPercentage: 'Tax percentage',
           timeZone: 'Time zone',
           locale: 'Language'
         }
@@ -18,7 +15,7 @@ module.exports = {
       user: {
         header: `Owner's basic information`,
         form: {
-          name: 'Name',
+          name: 'Name and surname',
           email: 'Email',
           password: 'Password'
         }
