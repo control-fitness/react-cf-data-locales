@@ -1,0 +1,22 @@
+{
+  "name": "react-cf-data-locales",
+  "version": "0.0.1",
+  "description": "Internationalization files for Fitness Control.",
+  "main": "/build.js",
+  "repository": "https://github.com/control-fitness/react-cf-data-locales.git",
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist",
+    "clean": "rm -rf dist",
+    "dist": "yarn run clean && yarn run build && node ./build.js",
+    "test": "yarn run dist && ./node_modules/.bin/mocha"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
