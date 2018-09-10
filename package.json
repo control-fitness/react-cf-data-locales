@@ -1,6 +1,6 @@
 {
   "name": "react-cf-data-locales",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Internationalization files for Fitness Control.",
   "main": "/build.js",
   "repository": "https://github.com/control-fitness/react-cf-data-locales.git",

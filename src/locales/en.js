@@ -31,6 +31,21 @@ module.exports = {
       }
     },
     user: {
+      login: {
+        domain: {
+          title: 'Find your company',
+          form: {
+            name: 'Company',
+          }
+        },
+        user: {
+          title: 'Connect to _company_',
+          form: {
+            email: 'Email',
+            password: 'Password',
+          }
+        }
+      },
       activate: {
         title: 'Activating your account.',
         message: 'We are activating your account. Wait a moment please.'
@@ -51,7 +66,8 @@ module.exports = {
       enter: 'Enter',
       goToStart: 'Go to start',
       next: 'Next',
-      save: 'Save'
+      save: 'Save',
+      search: 'Search'
     }
   },
   home: {

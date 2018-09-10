@@ -31,6 +31,21 @@ module.exports = {
       }
     },
     user: {
+      login: {
+        domain: {
+          title: 'Encuentra tu empresa',
+          form: {
+            name: 'Empresa',
+          }
+        },
+        user: {
+          title: 'Conectarse a _company_',
+          form: {
+            email: 'Correo electrónico',
+            password: 'Contraseña',
+          }
+        }
+      },
       activate: {
         title: 'Activando tu cuenta.',
         message: 'Estamos activando tu cuenta. Espere un momento por favor.'
@@ -51,7 +66,8 @@ module.exports = {
       enter: 'Entrar',
       goToStart: 'Ir al inicio',
       next: 'Siguiente',
-      save: 'Guardar'
+      save: 'Guardar',
+      search: 'Buscar'
     }
   },
   home: {
