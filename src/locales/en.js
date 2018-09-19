@@ -32,8 +32,9 @@ module.exports = {
     },
     user: {
       login: {
-        domain: {
-          title: 'Find your company',
+        company: {
+          title: 'Find your company to log in.',
+          subTitle: 'Search using the name of your company.',
           form: {
             name: 'Company',
           }
