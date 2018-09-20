@@ -40,7 +40,7 @@ module.exports = {
           }
         },
         user: {
-          title: 'Conectarse a _company_',
+          title: 'Conectarse a tu cuenta',
           form: {
             email: 'Correo electrónico',
             password: 'Contraseña',
