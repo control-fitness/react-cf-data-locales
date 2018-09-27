@@ -120,6 +120,16 @@ module.exports = {
       }
     }
   },
+  modules: {
+    home: 'Home',
+    reports: 'Reports',
+    crm: 'CRM',
+    financial: 'Financial',
+    classes: 'Classes',
+    settings: 'Settings',
+    company: 'Company',
+    account: 'Account'
+  },
   notFound: {
     message: 'You seem to be trying to load a page that does not exist.',
     title: 'The page does not exist'

@@ -120,6 +120,16 @@ module.exports = {
       }
     }
   },
+  modules: {
+    home: 'Inicio',
+    reports: 'Reportes',
+    crm: 'CRM',
+    financial: 'Financiero',
+    classes: 'Clases',
+    settings: 'Configuración',
+    company: 'Empresa',
+    account: 'Perfil'
+  },
   notFound: {
     message: 'Al parecer estas intentando cargar una página que no existe.',
     title: 'La página no existe'
