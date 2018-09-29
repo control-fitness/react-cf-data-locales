@@ -31,6 +31,14 @@ module.exports = {
       }
     },
     user: {
+      activate: {
+        title: 'Activating your account.',
+        message: 'We are activating your account. Wait a moment please.'
+      },
+      activated: {
+        title: 'Account activated.',
+        message: 'Your account has been activated successfully.'
+      },
       login: {
         company: {
           title: 'Find your company to log in.',
@@ -47,13 +55,9 @@ module.exports = {
           }
         }
       },
-      activate: {
-        title: 'Activating your account.',
-        message: 'We are activating your account. Wait a moment please.'
-      },
-      activated: {
-        title: 'Account activated.',
-        message: 'Your account has been activated successfully.'
+      logout: {
+        title: 'Sign out',
+        message: 'Do you want to close your session and exit the system?'
       }
     }
   },
@@ -65,6 +69,7 @@ module.exports = {
       continue: 'Continue',
       createAnAccount: 'Create an account',
       enter: 'Enter',
+      getOut: 'Get out',
       goToStart: 'Go to start',
       next: 'Next',
       save: 'Save',

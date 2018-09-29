@@ -31,6 +31,14 @@ module.exports = {
       }
     },
     user: {
+      activate: {
+        title: 'Activando tu cuenta.',
+        message: 'Estamos activando tu cuenta. Espere un momento por favor.'
+      },
+      activated: {
+        title: 'Cuenta activada.',
+        message: 'Tu cuenta ha sido activada satisfactoriamente.'
+      },
       login: {
         company: {
           title: 'Encuentre su empresa para iniciar sesión.',
@@ -47,13 +55,9 @@ module.exports = {
           }
         }
       },
-      activate: {
-        title: 'Activando tu cuenta.',
-        message: 'Estamos activando tu cuenta. Espere un momento por favor.'
-      },
-      activated: {
-        title: 'Cuenta activada.',
-        message: 'Tu cuenta ha sido activada satisfactoriamente.'
+      logout: {
+        title: 'Cerrar sesión',
+        message: '¿Desea cerrar su sesión y salir del sistema?'
       }
     }
   },
@@ -65,6 +69,7 @@ module.exports = {
       continue: 'Continuar',
       createAnAccount: 'Crear una cuenta',
       enter: 'Entrar',
+      getOut: 'Salir',
       goToStart: 'Ir al inicio',
       next: 'Siguiente',
       save: 'Guardar',
