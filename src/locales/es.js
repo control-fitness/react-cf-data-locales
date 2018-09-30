@@ -58,6 +58,15 @@ module.exports = {
       logout: {
         title: 'Cerrar sesión',
         message: '¿Desea cerrar su sesión y salir del sistema?'
+      },
+      profile: {
+        title: 'Perfil',
+        name: 'Nombre',
+        email: 'Correo electrónico',
+        address: 'Dirección',
+        phone: 'Teléfono',
+        password: 'Contraseña',
+        role: 'Rol'
       }
     }
   },
@@ -66,6 +75,7 @@ module.exports = {
     buttons: {
       back: 'Volver',
       cancel: 'Cancelar',
+      change: 'Cambiar',
       continue: 'Continuar',
       createAnAccount: 'Crear una cuenta',
       enter: 'Entrar',

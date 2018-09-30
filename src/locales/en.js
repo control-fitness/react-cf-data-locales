@@ -58,6 +58,15 @@ module.exports = {
       logout: {
         title: 'Sign out',
         message: 'Do you want to close your session and exit the system?'
+      },
+      profile: {
+        title: 'profile',
+        name: 'Name',
+        email: 'Email',
+        address: 'Addres',
+        phone: 'Phone',
+        password: 'Password',
+        role: 'Role'
       }
     }
   },
@@ -66,6 +75,7 @@ module.exports = {
     buttons: {
       back: 'Back',
       cancel: 'Cancel',
+      change: 'Change',
       continue: 'Continue',
       createAnAccount: 'Create an account',
       enter: 'Enter',
