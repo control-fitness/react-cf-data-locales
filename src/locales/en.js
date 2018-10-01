@@ -66,6 +66,11 @@ module.exports = {
         address: 'Addres',
         phone: 'Phone',
         password: 'Password',
+        confirmYourCurrentPassword: 'Confirm your current password.',
+        enterTheNewPassword: 'Enter the new password.',
+        currentPassword: 'Current password',
+        newPassword: 'New password',
+        confirmNewPassword: 'Confirm new password',
         role: 'Role'
       }
     }
@@ -76,6 +81,7 @@ module.exports = {
       back: 'Back',
       cancel: 'Cancel',
       change: 'Change',
+      changePassword: 'Change password',
       continue: 'Continue',
       createAnAccount: 'Create an account',
       enter: 'Enter',
