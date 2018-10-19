@@ -141,6 +141,12 @@ module.exports = {
       }
     }
   },
+  messages: {
+    noRecords: {
+      message: 'Aún no existen registros.',
+      title: 'Sin registros'
+    }
+  },
   modules: {
     home: 'Inicio',
     reports: 'Reportes',
