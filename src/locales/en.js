@@ -83,6 +83,7 @@ module.exports = {
       change: 'Change',
       changePassword: 'Change password',
       continue: 'Continue',
+      create: 'Create',
       createAnAccount: 'Create an account',
       enter: 'Enter',
       getOut: 'Get out',
