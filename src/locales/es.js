@@ -76,6 +76,28 @@ module.exports = {
     }
   },
   copyright: '© 2018 Control Fitness',
+  crm: {
+    client: {
+      title: 'Clientes',
+      new: {
+        title: 'Nuevo cliente'
+      },
+      edit: {
+        title: 'Editar cliente'
+      },
+      show: {
+        title: 'Detalle de cliente'
+      },
+      form: {
+        firstName: 'Nombres',
+        lastName: 'Apellidos',
+        email: 'Correo electrónico',
+        birthdate: 'Fecha de nacimiento',
+        address: 'Dirección del domicilio',
+        sex: 'Género'
+      }
+    }
+  },
   form: {
     buttons: {
       back: 'Volver',
