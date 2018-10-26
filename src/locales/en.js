@@ -94,7 +94,9 @@ module.exports = {
         email: 'Email',
         birthdate: 'Birthdate',
         address: 'Address',
-        sex: 'Gender'
+        sex: 'Gender',
+        male: 'Male',
+        female: 'Female'
       }
     }
   },

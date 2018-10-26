@@ -94,7 +94,9 @@ module.exports = {
         email: 'Correo electrónico',
         birthdate: 'Fecha de nacimiento',
         address: 'Dirección del domicilio',
-        sex: 'Género'
+        sex: 'Género',
+        male: 'Hombre',
+        female: 'Mujer'
       }
     }
   },
